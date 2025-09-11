@@ -28,7 +28,7 @@
 
 
 # My Background
-**First of all:** My english may be excused, it's not my native language so there may be some idioms I translated from german and didn't notice.  
+**First of all:** My english may be excused, it's not my native language so there may be some idioms I translated from German and didn't notice.  Second all designs and improvements for the S1 featured in this review are downloadable as STL and STEP on my Printables page (link at the bottom of this review).
 
 I started with 3D-printing roughly 7 years ago and from thereon constantly increased my fleet of printers. From building a Voron to designing a custom printer to adding a Stealthburner to my trusty CR-10S Pro.  Currently I use mainly BambuLab and Creality K1 and K2 printers as my daily drivers.  
 After some years of designing with callipers and reference pictures I decided it was time for a 3D-scanner (5 years ago). I fiddled around with the Kinect of my Xbox (can be used as a quite crude scanner with the right software, but the results were subpar with maybe 1-2cm of accuracy). These bad experiences initially stopped me from scanning and 2 years ago I started anew with scanning: At first a cheap 3DMakerPro scanner and then the original Creality Raptor Scanner.  
@@ -57,6 +57,13 @@ To transport all of this I have a nice hardcase from Peli. It contains the PC, p
 
 ## Scanner
 The initial unboxing of the scanner is quite satisfying. The provided hardcase is very sturdy and quality-wise at the level of Peli cases. After getting the Scan Bridge I needed to modify the insert of the case to make room for the bridge as you can see in the picture. The printed insert only replaces the central foam and leaves the underlying calibration plate in place.  
+
+Case Insert             |  Cable Stowaway
+:-------------------------:|:-------------------------:
+![case_insert](./docs/pictures/case_insert.jpg) | ![case_interior](./docs/pictures/bridge_cable.jpg)
+
+![calibration_plate](./docs/pictures/calibration_plate.jpg)
+
 I always try to use the space of cases as effectively as possible. The new insert is printed from TPU, CNC-cut closed-cell foam may be even nicer since the print took nearly 800gr. of TPU. To have space for some marker geometries I designed an insert for the lid to nicely organize the markers (must be printed from TPU since the geometries are snap-fit into the holder).
 
 **Contents of the case:**
@@ -77,7 +84,9 @@ I always try to use the space of cases as effectively as possible. The new inser
 # Hardware
 ## Scanner
 The scanner itself feels great. Its shape is quite comfortable to held after I was initially sceptical since it is quite heavily influenced by aesthetically pleasing curves and the low weight allow longer wired scanning without any issues.  A small problem I encountered was that the lenses are relatively exposed and you cannot lay the scanner with the lenses down. To remedy this, I designed some lens-protectors printed from TPU.
- 
+
+![lens_protector](/docs/pictures/lens_protector.jpg)
+
 Coming from an Otter this is quite a positive change thinking about the slippery metallic case and awkward to use touch-buttons.
 The included data-cable for the scanner is too short (~2m) in my opinion. I replaced it with the cable of an RaptorX (~4.5m) which drastically improves the wired usability for larger scans. With the original cable you’re basically forced to either carry your pc/notebook under your arm while scanning or buying the Scan Bridge.
 ### Scan Software
@@ -89,19 +98,29 @@ Talking software: Creality improved a lot of features in Creality Scan 4 and gen
 ### Comparison to MetroX
 As a disclaimer you must keep in mind the price difference between the scanners. The MetroX is available for roughly 1000€ whereas the Sermoon S1 is roughly 3100€ including the Scan Bridge. I got the Sermoon S1 as a preorder with some other discounts for around 2000€.  
 
-I was quite happy with with the ergonomics of the MetroX but due to the increased depth of the MetroX it gets tiresome to hold it for longer times. Whereas the Sermoon S1 feels quite like the original Raptor I had. Other differences are the narrower camera distance to enable deep single line scanning. The two wide angle cameras look quite similar to the Otter I had and are spaced the same as the high-resolution cameras.
-Looking at the laser emitters one directly notices the drastic size difference. This may convey to the scanning results or be based on the larger depth of field and therefore brighter lasers needed.  
+Front View           |  Back View
+:-------------------------:|:-------------------------:
+![front_view](./docs/pictures/frontal_view.JPG) | ![back_view](./docs/pictures/back_view.JPG)
+Emitter Closeup | Side View
+![emitter_closeup](./docs/pictures/emitter.JPG) | ![side_view](./docs/pictures/side_view.JPG)
 
+I was quite happy with with the ergonomics of the MetroX but due to the increased depth of the MetroX it gets tiresome to hold it for longer times. Whereas the Sermoon S1 feels quite like the original Raptor I had. Other differences are the narrower camera distance to enable deep single line scanning. The two wide angle cameras look quite similar to the Otter I had and are spaced the same as the high-resolution cameras.  
+
+Looking at the laser emitters one directly notices the drastic size difference. This may convey to the scanning results or be based on the larger depth of field and therefore brighter lasers needed.  
 Personally, I didn’t notice the lasers of the S1 to be brighter. More practical variations are observable in the parallel line mode. Like the experiences with my original Raptor the lines are extremely fine and nearly invisible at lowest power which translates to better detail scanning. The MetroX apparently uses the same emitters for parallel and cross mode since no differences in scan quality or laser line brightness or width are noticeable.  
 Additionally, the scan range for the different laser modes is similar in the MetroX (S1 requires to be closer to the scanned part in parallel line mode).  
 
 **Addressing the newly announced MetroY and Metr Y Pro:**
-FOV and depth of field are nearly similar to the MetroX therefore I don’t expect much improvement in marker recognition. The usage of 15 lines for parallel scanning suggests that Revopoint again used the same emitters for both modes. Scanning performance is still not known, future will tell.
-  
-  
+FOV and depth of field are nearly similar to the MetroX therefore I don’t expect much improvement in marker recognition. The usage of 15 lines for parallel scanning suggests that Revopoint again used the same emitters for both modes. Scanning performance is still not known, future will tell.   
 
 ## Scan Bridge
 My initial impression of the bridge was excellent. Scanning and screen-casting to my smartphone worked immediately. You must keep the additional weight of the bridge and smartphone in mind when planning to buy the bridge. For me it is acceptable but took some time to get used to since I have quite a hefty smartphone. Often, I simply prefer to screen-cast to my tablet and place it on the workbench to eliminate the additional weight.  
+Only afterthought was the crooked mounting of the quick-release connector on the Sermoon S1. Nothing a 3D-print and longer 1/4in screw can't fix (design provided on my Printables-page).
+
+Before Print | After Print
+:-------------------------:|:-------------------------:
+![crooked_plate](./docs/pictures/crooked_plate.jpg) | ![fixed_plate](./docs/pictures/fixed_plate.jpg)
+
 Range seemed limited at first with only 3 to 4 meters while using the built-in WiFi on my motherboard. After further contemplation I decided to switch the pathetic stubby antennas on my motherboard with the original ones and suddenly the range increased dramatically (should have though earlier about it with my IT background…). Now I’m able to go two rooms down the hall (only draywall) and scan from there without any dropouts or decrease in framerate.  
 NIR scanning with the Bridge is extremely enjoyable with nearly no difference to wired scanning since it hits the full 30FPS. The limitation to 40FPS in laser-mode makes me sometimes consciously use the cable to increase data acquisition speed – especially for parallel and single line – for very high-resolution scans. When scanning big parts and therefore setting the target point-distance to a value greater than 0.7mm and using cross lines it reaches the target point-distance nearly in real time so no need to use the cable.
 
@@ -168,6 +187,8 @@ NIR mode in large setting is awesome for quickly scanning furniture and clothing
 **Blazer – NIR large wideangle:**
   
 **Decorative frog – NIR large normal:**
+
+**Couch dark grey - NIR large wideangle:**
  
 ### Automotive
 This Porsche chassis was scanned in NIR wide-angle mode and feature-tracking. Scanning worked flawlessly but over the whole length of the car some volumetric deviations accumulated. Otherwise, the S1 is excellent for fast capture of say a bumper of trunk, especially with the Scan Bridge.
