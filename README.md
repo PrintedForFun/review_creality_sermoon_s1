@@ -177,10 +177,11 @@ ScanBenchy Front | ScanBenchy Back
 For me it feels like a tie, but you should compare the results for yourself on sketchfab.  
 
 #### 3D-printed castle Sermoon S1
-![castle detail](./docs/pictures/scan_results/high_detail/castle_printed.png)
+![castle detail](./docs/pictures/scan_results/high_detail/castle_printed.png)  
 
-This is part of the printed castle used in previous tests. Print was performed with a 0.6mm nozzle and 0.3mm layer-height. If you have the patience it should be possible to measure it from the scan.
 Sketchfab-link: https://skfb.ly/pASVH
+
+This is part of the printed castle used in previous tests. Print was performed with a 0.6mm nozzle and 0.3mm layer-height. If you have the patience it should be possible to measure it from the scan.  
  
 ## NIR
 ### Different NIR modes tested
