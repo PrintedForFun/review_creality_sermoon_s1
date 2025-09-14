@@ -176,12 +176,33 @@ ScanBenchy Front | ScanBenchy Back
   
 For me it feels like a tie, but you should compare the results for yourself on sketchfab.  
 
-#### 3D-printed castle Sermoon S1
+#### 3D-printed Castle Sermoon S1
 ![castle detail](./docs/pictures/scan_results/high_detail/castle_printed.png)  
 
 Sketchfab-link: https://skfb.ly/pASVH
 
 This is part of the printed castle used in previous tests. Print was performed with a 0.6mm nozzle and 0.3mm layer-height. If you have the patience it should be possible to measure it from the scan.  
+
+#### Golden Coin Sermoon S1
+After some feedback regarding laser-scanning capabilities of the Sermoon S1 I created further tests and one of them is the high-detail scan of a coin. It is roughly 20mm in diameter and was covered with sublimating scan-spray in preparation.  
+
+![coin original](./docs/pictures/scan_results/high_detail/coin.jpg)
+
+All scans were conducted with highest preview quality and highest post-processing quality.  
+Four test scenarios were created with the results from left to right:  
+1. Parallel laser lines, manual exposure, turntable (may induce vibration), scanned until fully blue -> roughly 5k frames
+2. Parallel laser lines, manual exposure, static (no turntable used), scanned until 20k frames captured
+3. NIR small (marker-tracking), manual exposure, turntable, scanned until fully blue -> roughly 1k frames
+4. NIR small (marker-tracking), manual exposure, static (no turntable used), scanned until 5k frames captured
+
+![scan comparison](./docs/pictures/scan_results/high_detail/coin_comparison.jpg)  
+
+Sketchfab-link: https://skfb.ly/pAXZE
+
+The results are as expected. The laser-mode fused at ultra-quality (0,02mm) drastically outperforms NIR mode. Thinking about the Creality Otter the capture of small parts in NIR is worse since it simply isn't the goal of the scanner.  
+The difference between the two laser scans is subtile but present: 20k frames simply provided more data to fuse and mesh, therefore less noise and more detail is there.  
+
+When scanning in ulta high quality I would advise to use the scanner wired to benefit from the 90FPS. Otherwise it can get quite heavy when capturing this much data.
  
 ## NIR
 ### Different NIR modes tested
